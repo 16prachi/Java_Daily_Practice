@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Prblm3 {
+    public static void main(String[] args) {
+    //Roots of a quadratic equation
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int c=sc.nextInt();
+    double d=(b*b)-(4*a*c);
+    double r1,r2;
+    if(d>0){
+        r1=(-b+Math.sqrt(d))/(2*a);
+        r2=(-b-Math.sqrt(d))/(2*a);
+        System.out.println(r1);
+        System.out.println(r2);
+    }
+    else if(d==0){
+        r1=r2=-b/(2*a);
+        System.out.println("root1=root2" + r1);
+    }
+    else{
+        System.out.println("real or imaginary");
+    }
+}
+}
+
