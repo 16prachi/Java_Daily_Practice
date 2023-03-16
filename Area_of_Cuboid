@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class prblm4 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int l=sc.nextInt();
+        int w=sc.nextInt();
+        int h=sc.nextInt();
+        int Area=(2*l*w)+(2*l*h)+(2*h*w);
+        System.out.println("Area of cuboid = "+Area);
+    }
+}
+
