@@ -1,0 +1,14 @@
+public class Prblm10 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a alphabet");
+        char C=sc.next().charAt(0);
+        if(C=='A'||C=='E'||C=='I'||C=='O'||C=='U'||C=='a'||C=='e'||C=='i'||C=='o'||C=='u'){
+            System.out.println("vowel");
+        }
+        else{
+            System.out.println("consonant");
+        }
+    }
+}
+
