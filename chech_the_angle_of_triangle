@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Prblm15 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int ang1=sc.nextInt();
+        int ang2=sc.nextInt();
+        int ang3=sc.nextInt();
+        if((ang1 +ang2+ang3)=180 && ang1!=0 && ang2!=0 && ang3!=0){
+            System.out.println("triangle");
+        }
+        else{
+            System.out.println("not triangle");
+        }
+    }
+}
+
