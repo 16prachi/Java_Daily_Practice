@@ -1,0 +1,21 @@
+public class Prblm31 {
+    public static void main(String[] args) {
+// System.out.println("Java Concept of The Day".substring(8,4));
+
+       /*String[] strings={"Java","Python","JavaScript","HTML","CSS"};
+       String languages=String.join("-",strings);
+       System.out.println(languages);*/
+
+      /* System.out.println("A".compareTo("B"));
+       System.out.println("B".compareTo("A"));*/
+
+       /*String string="JAVA";
+       StringBuffer sbuffer=new StringBuffer(string);
+       StringBuilder sBuilder=new StringBuilder(string);
+       System.out.println(string.equals(sbuffer));
+       System.out.println(string.equals(sBuilder));
+       System.out.println(sBuilder.equals(sBuilder));*/
+
+       // "ABC123abc".chars().forEach(System.out::println);
+       }
+       }
