@@ -1,0 +1,18 @@
+public class Prblm31 {
+    public static void main(String[] args) {
+/*String s1="null"+null+1;
+       System.out.println(s1);*/
+
+      /*  String s1=1+null+"null";
+       System.out.println(s1);*/
+
+       /*String str="Java Concept Of The Day";
+       System.out.println(str.indexOf('a')+str.indexOf("Day"));*/
+
+       /*String str="Java Concept Of The Day";
+       System.out.println(str.indexOf('a',5));*/
+    
+       String str="JavaConceptOfTheDay";
+       System.out.println(str.charAt(str.length()));
+    }
+}
