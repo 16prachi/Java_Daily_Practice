@@ -1,0 +1,16 @@
+Input:
+true false
+Output:
+false true false
+Explanation:
+true&&false=>false
+true||false=>true
+!(true) && !(false)=>false
+===========================================
+class Geeks{
+    
+    static void logicOp(boolean a, boolean b){
+            System.out.print((a&&b)+" "+(a||b)+" "+((!a)&&(!b)));
+            
+    }
+}
