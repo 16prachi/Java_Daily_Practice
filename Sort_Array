@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class sortarray {
+    public static void main(String[] args) {
+        int arr[]={2,5,1,0,8};
+        String arr1[]={"prachi","ayush","monu","anshi"};
+        System.out.println("Numeric array:"+Arrays.toString(arr) );
+        Arrays.sort(arr);
+        System.out.println("Sorted array:"+Arrays.toString(arr));
+         System.out.println("Numeric array:"+Arrays.toString(arr1) );
+        Arrays.sort(arr1);
+        System.out.println("Sorted array:"+Arrays.toString(arr1));
+
+    }
+}
+
