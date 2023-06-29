@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class InsertElemt{
+    public static void main(String[] args) {
+        int[]  A={4,8,9,6,10};
+        int index=2;
+        int element=5;
+        /*for(int i=0;i<A.length;i++){
+            A[index]=element;
+        }*/
+        for(int i=A.length-1;i>index;i--)
+        {
+            A[i]=A[i-1];
+        }
+            A[index]=element;
+        System.out.println(Arrays.toString(A));
+    }
+}
+
