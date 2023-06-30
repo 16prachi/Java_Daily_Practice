@@ -1,0 +1,18 @@
+public class MaxMinQ9 {
+    public static void main(String[] args) {
+        int[]  A={4,8,9,6,10};
+        int  max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
+        for(int i=0;i<A.length;i++){
+            if(A[i]>max){
+               max=A[i];
+            }
+            if(A[i]<min){
+            min=A[i];
+        }
+    }
+    System.out.println(max);
+    System.out.println(min);
+}
+}
+
