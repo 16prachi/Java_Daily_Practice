@@ -1,0 +1,27 @@
+package Array2D;
+
+import java.util.Scanner;
+
+public class searchelement {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int r=sc.nextInt();
+        int c=sc.nextInt();
+        int [][]num=new int[r][c];
+        //input
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                num[i][j]=sc.nextInt();
+            }
+        }
+        int x=sc.nextInt();
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                if(num[i][j]==x){
+                System.out.print("x is found at the location="+i+" ,"+j);
+            }
+        }
+    }
+}
+}
+
